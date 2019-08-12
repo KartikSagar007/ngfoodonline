@@ -11,6 +11,10 @@ git commit -m "backup file added"
 git push -u origin backup
 git pull origin master
 git push -u origin backup
+>>>>>>>>>>>>>
+to take backup again and again
+git pull origin master
+git push -u origin backup
 
 =========================================================
 //create a new branch isagarmca3
@@ -23,6 +27,8 @@ git merge isagarmca3
 git checkout isagarmca3
 git pull origin master
 git push -u origin isagarmca3
-
-
+create pull request
+and let them merge
+======================================
+shift +z+z = save and quit in vim
 
