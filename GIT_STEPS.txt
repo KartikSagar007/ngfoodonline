@@ -1,0 +1,28 @@
+//take a backup of master 
+mkdir ngfoodonline
+git init
+git remote add origin https:////sadfasdfa.git
+git fetch --all
+git checkout -b "backup"
+git pull origin master
+echo "repo_backup" >> "backup.txt"
+git add .
+git commit -m "backup file added"
+git push -u origin backup
+git pull origin master
+git push -u origin backup
+
+=========================================================
+//create a new branch isagarmca3
+git checkout -b isagarmca3
+echo "repo_isagarmca3" >> "repo_isagarmca3.txt"
+git add .
+git commit -m "repo_isagarmca3.txt added"
+git checkout master	//i doubt on this step but it worked
+git merge isagarmca3
+git checkout isagarmca3
+git pull origin master
+git push -u origin isagarmca3
+
+
+
