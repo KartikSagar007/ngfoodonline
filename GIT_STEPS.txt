@@ -22,9 +22,9 @@ git checkout -b isagarmca3
 echo "repo_isagarmca3" >> "repo_isagarmca3.txt"
 git add .
 git commit -m "repo_isagarmca3.txt added"
-git checkout master	//i doubt on this step but it worked
-git merge isagarmca3
-git checkout isagarmca3
+	git checkout master	//i doubt on this step but it worked & did not use next time
+	git merge isagarmca3	//i doubt on this step but it worked & did not use next time
+	git checkout isagarmca3 //i doubt on this step but it worked & did not use next time
 git pull origin master
 git push -u origin isagarmca3
 create pull request
